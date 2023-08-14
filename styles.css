@@ -1,0 +1,64 @@
+html {
+    background: #394a51;
+}
+
+/* Nav Bar */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border: solid black 2px;
+    border-radius: 0.5rem;
+    background-color: #fbf2d5;
+    padding: 15px;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #394a51;
+    font-weight: bold;
+}
+
+.current {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: black;
+}
+
+/* Content */
+
+.content {
+    display: flex;
+    height: fit-content;
+    gap: 1rem;
+}
+
+.box {
+    border: solid black 2px;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.left {
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+    background-color: #fdc57b;
+}
+
+.right {
+    flex: 1;
+    background-color: #7fa99b;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    height: 200px;
+    width: 350px;
+}
