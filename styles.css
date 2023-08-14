@@ -2,6 +2,10 @@ html {
     background: #394a51;
 }
 
+body {
+    margin: 10px 25px;
+}
+
 /* Nav Bar */
 
 nav {
@@ -23,7 +27,7 @@ nav a {
 .current {
     text-decoration: underline;
     font-weight: bolder;
-    color: black;
+
 }
 
 /* Content */
