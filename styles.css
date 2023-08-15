@@ -11,9 +11,10 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
-    border: solid black 2px;
+    border: solid #fbf2d5 2px;
     border-radius: 0.5rem;
     background-color: #fbf2d5;
+    background-color: #7fa99b;
     padding: 15px;
     margin-bottom: 1rem;
 }
@@ -22,11 +23,17 @@ nav a {
     text-decoration: none;
     color: #394a51;
     font-weight: bold;
+    padding: .2rem .5rem;
+    background-color: #fdc57b;
+    border: #fbf2d5 .5px solid;
+    border-radius: .5rem;
 }
 
 .current {
-    text-decoration: underline;
     font-weight: bolder;
+    border: #fbf2d5 1px solid;
+    color: #fdc57b;
+    background-color: #394a51;
 
 }
 
@@ -39,7 +46,7 @@ nav a {
 }
 
 .box {
-    border: solid black 2px;
+    border: solid #fbf2d5 2px;
     border-radius: 0.5rem;
     gap: 1rem;
     padding: 1rem;
@@ -51,7 +58,6 @@ nav a {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-
     background-color: #fdc57b;
 }
 
@@ -64,23 +70,22 @@ nav a {
 }
 
 .card {
-    border: 2px solid black;
+    border: 2px solid #fbf2d5;
     border-radius: 0.5rem;
     height: 200px;
-    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: larger;
 }
 
-.rCard {
-    border: 2px solid black;
-    border-radius: 0.5rem;
-    height: 200px;
+.one {
+    width: 350px;
+    background-color: #7fa99b;
+
+}
+
+.two {
     width: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: larger;
+    background-color: #fdc57b;
 }
