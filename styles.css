@@ -36,7 +36,8 @@ nav a:hover {
 }
 
 /* Title */
-h1 {
+h1,
+h3 {
     text-align: center;
     color: #a2c11c;
 }
