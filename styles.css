@@ -7,7 +7,6 @@ body {
 }
 
 /* Nav Bar */
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -42,7 +41,6 @@ h1 {
     color: #a2c11c;
 }
 /* Content boxes*/
-
 .content {
     display: flex;
     height: fit-content;
@@ -78,10 +76,12 @@ h1 {
     border: 2px solid #e0e0e0;
     border-radius: 0.5rem;
     height: 200px;
-    display: flex;
     justify-content: center;
     align-items: center;
     font-size: larger;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .one {
@@ -108,11 +108,19 @@ h1 {
 }
 
 /* About Formatting */
-
 .aboutContent {
     flex-direction: column;
 }
 
 .bottom {
     flex-direction: row;
+}
+
+/* Portfolio Formatting */
+.portfolioSidebar {
+    height: fit-content;
+}
+
+.portfolioCenter {
+    flex-direction: column;
 }
