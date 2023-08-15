@@ -95,6 +95,7 @@ h1 {
     background-color: #2c5d63;
 }
 
+/* Contact Formatting */
 .contact {
     height: fit-content;
     padding: 5px;
@@ -104,4 +105,14 @@ h1 {
     flex: 0;
     display: flex;
     justify-content: center;
+}
+
+/* About Formatting */
+
+.aboutContent {
+    flex-direction: column;
+}
+
+.bottom {
+    flex-direction: row;
 }
