@@ -50,19 +50,37 @@ nav a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 
     background-color: #fdc57b;
 }
 
 .right {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     background-color: #7fa99b;
+    align-items: center;
 }
 
 .card {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 0.5rem;
     height: 200px;
     width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.rCard {
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
 }
