@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 10px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Nav Bar */
@@ -14,7 +15,6 @@ nav {
     border-radius: 0.5rem;
     background-color: #2c5d63;
     padding: 15px;
-    margin-bottom: 1rem;
 }
 
 nav a {
@@ -142,6 +142,26 @@ h1 {
     text-decoration: underline;
 }
 
+/* About Formatting */
+.aboutContent {
+    text-align: center;
+}
+
+/* Title Formatting */
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 100px;
+}
+
+.title img {
+    height: 40px;
+    width: 40px;
+}
+
+/* Image Formatting for fitting cards*/
 img {
     height: 200px;
     width: 350px;
