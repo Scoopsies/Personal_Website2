@@ -147,20 +147,6 @@ h1 {
     text-align: center;
 }
 
-/* Title Formatting */
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    height: 100px;
-}
-
-.title img {
-    height: 40px;
-    width: 40px;
-}
-
 /* Image Formatting for fitting cards*/
 img {
     height: 200px;
